@@ -361,19 +361,7 @@ const ProductAdd = () => {
                 style={{ width: '100%' }}
               />
             </Form.Item>
-            <Form.Item
-              name="colors"
-              label="Màu"
-              rules={[{ required: true, message: 'Vui lòng chọn màu!' }]}
-            >
-              <Select
-                mode="multiple"
-                placeholder="Chọn màu"
-                allowClear
-                options={colorOptions}
-                style={{ width: '100%' }}
-              />
-            </Form.Item>
+         
             {/* <Form.Item
               label="Images"
               name="images"

@@ -3,9 +3,9 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import banner1 from "../../../organic-1.0.0/images/banner3.jpg";
-import banner2 from "../../../organic-1.0.0/images/banner5.webp";
-import banner3 from "../../../organic-1.0.0/images/banner4.webp";
+import banner1 from "../../../images/curly_hair_girl-1_rus3zv.jpg";
+import banner2 from "../../../images/curly_hair_white-1_x4bo5v.jpg";
+import banner3 from "../../../images/monigote_gnzuhj.jpg";
 
 
 const BannerSection = () => {
