@@ -33,7 +33,7 @@ const HomePage = () => {
        <div className='space-y-10 py-20 flex flex-col justify-center px-5 lg:px-10'>
         <HomeSectionCarosel data={truyendai} sectionName={'Top sản phẩm bán chạy'} danhmuc={"truyendai"}/>
         <HomeSectionCarosel data={truyenngan}  sectionName={'Bộ sưu tập mới'} danhmuc={"truyenngan"}/>
-        <HomeSectionCarosel data={truyenthieunhi}  sectionName={'Truyện thiếu nhi'} danhmuc={"truyenthieunhi"}/>
+        <HomeSectionCarosel data={truyenthieunhi}  sectionName={'Hàng mới về'} danhmuc={"truyenthieunhi"}/>
        </div>
     </div>
 
