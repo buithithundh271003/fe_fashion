@@ -436,7 +436,7 @@ const OrderSummary = () => {
                   value={paymentMethod}
                   style={{ width: '100%', marginTop: 8 }}
                 >
-                  <Option value="gh">Giao hàng</Option>
+                  <Option value="gh">Thanh toán khi nhận hàng</Option>
                   <Option value="ck">Chuyển khoản</Option>
                 </Select>
               </div>

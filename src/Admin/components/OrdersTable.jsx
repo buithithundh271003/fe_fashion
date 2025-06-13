@@ -229,9 +229,10 @@ const OrdersTable = () => {
                   <TableCell>
                     <AvatarGroup max={3} sx={{ justifyContent: 'start' }}>
                       {order?.orderItems?.map((item, index) => (
+                        console.log(item?.product?.images[0]?.thumbUrl),
                         <Avatar 
                           key={index} 
-                          src={item?.product?.imageUrl} 
+                          src={item?.product?.images[0]?.thumbUrl} 
                           alt={item?.product?.title}
                         />
                       ))}

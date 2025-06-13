@@ -241,23 +241,18 @@ const BannerSection = () => {
     {
       id: 1,
       image: banner1,
-      title: "Banner 1",
-      subtitle: "Subtitle 1",
       buttonText: "Learn More",
-      buttonLink: "#",
+     
     },
     {
       id: 2,
       image: banner2,
-      title: "Banner 2",
-      subtitle: "Subtitle 2",
-      buttonText: "Discover",
-      buttonLink: "#",
+
     },
     {
       id: 3,
       image: banner3,
-      title: "Banner 3",
+      title: " Mùa hè đầy sôi động, nhiệt huyết",
       subtitle: "Subtitle 3",
       buttonText: "Join Now",
       buttonLink: "#",
