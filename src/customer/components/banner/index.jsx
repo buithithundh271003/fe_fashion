@@ -241,7 +241,6 @@ const BannerSection = () => {
     {
       id: 1,
       image: banner1,
-      buttonText: "Learn More",
      
     },
     {
@@ -252,9 +251,6 @@ const BannerSection = () => {
     {
       id: 3,
       image: banner3,
-      title: " Mùa hè đầy sôi động, nhiệt huyết",
-      subtitle: "Subtitle 3",
-      buttonText: "Join Now",
       buttonLink: "#",
     },
   ];

@@ -209,7 +209,7 @@ export default function Product() {
                         value={priceRange[1]}
                         onChange={(e) => handlePriceChange(e, 1)}
                         min={priceRange[0]}
-                        max="1000000"
+                        max="10000000"
                         className="w-full border border-gray-300 rounded px-2 py-1 text-sm"
                       />
                     </div>
@@ -217,7 +217,7 @@ export default function Product() {
                       <input 
                         type="range" 
                         min="0" 
-                        max="1000000" 
+                        max="10000000" 
                         value={priceRange[0]}
                         onChange={(e) => handlePriceChange(e, 0)}
                         className="w-full mt-2 accent-indigo-600"
@@ -225,7 +225,7 @@ export default function Product() {
                       <input 
                         type="range" 
                         min="0" 
-                        max="1000000" 
+                        max="10000000" 
                         value={priceRange[1]}
                         onChange={(e) => handlePriceChange(e, 1)}
                         className="w-full mt-2 accent-indigo-600"
